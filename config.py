@@ -1,4 +1,7 @@
 import os
+from sops_env import load_sops_env
+
+load_sops_env()
 
 COLLECTION_1_PATH = os.environ.get("COLLECTION_1_PATH", "/mnt/music/coleccion1")
 COLLECTION_2_PATH = os.environ.get("COLLECTION_2_PATH", "/mnt/music/coleccion2")

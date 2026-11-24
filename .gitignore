@@ -7,3 +7,6 @@
 *.csv*
 **/.csv*
 **/__pycache__/
+
+*encrypted*.env
+.env
